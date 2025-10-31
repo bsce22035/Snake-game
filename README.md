@@ -1,9 +1,9 @@
-🐍 Snake Plus (with Obstacles & Levels)
+#🐍 Snake Plus (with Obstacles & Levels)
 
 Snake Plus is an enhanced version of the classic Snake game built using Python (Pygame).
 It includes multiple levels, obstacles, smooth gameplay, and sound effects — making the retro experience more challenging and fun.
 
-🎮 Features
+#🎮 Features
 
 🧱 Obstacles & Levels: Progress through increasing difficulty as you play.
 
@@ -17,7 +17,7 @@ It includes multiple levels, obstacles, smooth gameplay, and sound effects — m
 
 🕹️ Keyboard Controls: Smooth and responsive snake movement.
 
-🧩 Controls
+#🧩 Controls
 Key	Action
 ⬆️	Move Up
 ⬇️	Move Down
@@ -26,7 +26,7 @@ Key	Action
 P	Pause / Resume
 ESC	Quit Game
 
-📊 Scoring Rules
+#📊 Scoring Rules
 
 🍎 Eat food: +10 points
 
@@ -34,7 +34,7 @@ ESC	Quit Game
 
 🚀 Reach score threshold: Level Up (speed increases)
 
-🧠 Future Improvements
+# Future Improvements
 
 Add custom themes and snake colors
 
