@@ -141,7 +141,7 @@ class GameState:
     obstacles: List[Obstacle] = field(default_factory=list)
 
 
-# ------------------ Utility functions ------------------
+# Utility functions 
 
 def clamp(v, lo, hi):
     return max(lo, min(v, hi))
@@ -968,6 +968,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
