@@ -13,8 +13,6 @@ try:
 except Exception:
     np = None
 
-# ------------------ Window & Grid Configuration ------------------
-
 WINDOW_WIDTH = 800
 WINDOW_HEIGHT = 600
 
@@ -970,4 +968,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
