@@ -1,14 +1,3 @@
-"""
-Snake Plus Fixed - Obstacles, Levels, Settings, Leaderboard, Stats
-- Window: 800x600 (standard)
-- Includes procedural sounds (numpy required for synthesis; if missing, sounds are silent)
-- Fixed centered settings/title menu layout
-- All features in a single file, JSON persistence for leaderboard & stats
-
-Save as: snake_plus_fixed.py
-Run: python snake_plus_fixed.py
-"""
-
 import pygame
 import sys
 import random
@@ -19,7 +8,6 @@ import math
 from dataclasses import dataclass, field
 from typing import List, Tuple, Optional, Dict
 
-# optional dependency for sound generation
 try:
     import numpy as np
 except Exception:
@@ -982,3 +970,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
