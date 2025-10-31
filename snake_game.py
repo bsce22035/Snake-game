@@ -57,7 +57,7 @@ MAX_STATIC_OBSTACLES = 12
 MAX_MOVING_OBSTACLES = 6
 MOVING_OBSTACLE_BASE_SPEED = 0.6  # grid cells per second
 
-# ------------------ Data Classes ------------------
+#  Data Classes 
 
 @dataclass
 class Point:
@@ -968,5 +968,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
